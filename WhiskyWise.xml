@@ -12,7 +12,10 @@
   <ReadMe/>
   <Overview>Your Personal Spirits Guide&#13;
 &#13;
-Whisky Wise is a lightweight, containerized personal assistant for spirits enthusiasts. Whether you're tracking a growing collection or cataloging the nuance of a rare Islay peat, Whisky Wise provides a clean, distraction-free interface to manage your journey through the world of whisky.</Overview>
+Whisky Wise is a lightweight, containerized personal assistant for spirits enthusiasts. Whether you're tracking a growing collection or cataloging the nuance of a rare Islay peat, Whisky Wise provides a clean, distraction-free interface to manage your journey through the world of whisky.&#13;
+&#13;
+! Be Aware !&#13;
+The Flask session secret (SECRET_KEY) must be changed before starting the container; otherwise, the container will not be persistent.</Overview>
   <Category>Productivity:</Category>
   <WebUI>http://[IP]:[PORT:5000]</WebUI>
   <TemplateURL/>
